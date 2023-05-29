@@ -155,6 +155,11 @@ h6,
     background-size: cover;
 }
 
+.about-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-header.jpg), no-repeat center center;
+    background-size: cover;
+}
+
 .cat-item img {
     transition: .5s;
 }

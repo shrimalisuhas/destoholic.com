@@ -20,63 +20,76 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid ">
+    <div class="topbar">
+        <div class="container-fluid  ">
 
 
-        <div class="row align-items-center py-1 px-xl-5">
+            <div class=" bg-primary row align-items-center py-1 px-xl-5">
 
 
-            <div class="col-lg-7 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1"></h6>
-                        <small>info@destoholic.com</small>
+                <div class="col-lg-7 text-right">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-envelope text-secondary mr-3"></i>
+                        <div class="text-left">
+                            <h6 class="  text-white"></h6>
+                            <a href="mailto:info@destoholic.com"> info@destoholic.com </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-2 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1"></h6>
-                        <small>+91 7777969646</small><br>
-                        <small>+39 3478451509</small>
+                <div class="col-lg-2 text-right">
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-phone text-secondary mr-3"></i>
+                        <div class="text-left text-white">
+                            <h6 class="font-weight-semi-bold mb-1 text-white"></h6>
+                            <span itemprop="telephone text-white"><a href="tel:+917777969646 ">
+                                    +91 7777969646 <br> </a></span>
+                            <a href="tel:+39 3478451509">
+                                +39 3478451509</a></span>
+
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 text-right">
+                <div class="col-lg-3 text-right">
 
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1"></h6>
-                        <small>322, T/F Satya 2 Complex, Opp Ranna Park Busstop, Gatlodia, Ahmedabad, India</small>
+                    <div class="d-inline-flex align-items-center">
+                        <i class="fa fa-2x fa-map-marker-alt text-secondary mr-3"></i>
+                        <div class="text-left">
+                            <h6 class="font-weight-normal mb-1"></h6>
+                            <a href="https://maps.google.com/"> 322,
+                                Satya 2 Complex, Opp Ranna Park Busstop, Gatlodia, Ahmedabad, India </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid">
-        <div class="row border-top px-xl-5">
-            <div class="col-lg-3 d-none d-lg-block">
-                <div class="col-lg-3">
-                    <a href="" class="text-decoration-none">
-                        <img class="position-relative w-100" src="img\DESTOHOLIC_LOGO_SVG-01.svg">
-                    </a>
+    <div class="navbar-container">
+        <div class="container-fluid">
+            <div class="  row align-items-center py-0 px-xl-5 bg-red">
+
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="col-lg-4">
+
+                        <a href="https://destoholic.com/">
+                            <img class="position-relative w-100" src="img\destoholic-logo-png-1-159x172.png">
+                        </a>
+
+
+                    </div>
+
+
                 </div>
 
-            </div>
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
-                        <img class="position-relative w-25" src="img\DESTOHOLIC_LOGO_SVG-01.svg">
-                    </a>
+                <nav class="navbar navbar-expand-lg bg-red navbar-light py-3 py-lg-0 px-0">
+
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -84,8 +97,29 @@
                         <div class="navbar-nav py-0">
                             <a href="index.html" class="nav-item nav-link">Home</a>
                             <a href="about.html" class="nav-item nav-link active">About Us</a>
-                            <a href="course.html" class="nav-item nav-link">Countries</a>
-                            <a href="teacher.html" class="nav-item nav-link">Visa Services</a>
+
+                            <div class="nav-item dropdown">
+                                <a href="countries.html" class="nav-item nav-link dropdown-toggle">Countries</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="usavisa.html" class="dropdown-item">USA</a>
+                                    <a href="canadavisa.html" class="dropdown-item">Canada</a>
+                                    <a href="ukvisa.html" class="dropdown-item">UK</a>
+                                    <a href="australiavisa.html" class="dropdown-item">Australia</a>
+                                    <a href="newzealandvisa.html" class="dropdown-item">New Zealand</a>
+                                    <a href="europevisa.html" class="dropdown-item">Europe</a>
+                                    <a href="italy.html" class="dropdown-item">Italy</a>
+                                    <a href="germanyvisa.html" class="dropdown-item">Germany</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="visaservice.html" class="nav-item nav-link dropdown-toggle ">Visa Services</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="studentvisa.html" class="dropdown-item">Student Visa</a>
+                                    <a href="businessvisa.html" class="dropdown-item">Business Visa</a>
+                                    <a href="touristvisa.html" class="dropdown-item">Tourist Visa</a>
+                                    <a href="workvisa.html" class="dropdown-item">Work Visa</a>
+                                </div>
+                            </div>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -95,13 +129,16 @@
                             </div>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
+
                     </div>
                 </nav>
+                <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="contact.html#L143">Inquire Now</a>
             </div>
+    
         </div>
     </div>
-    <!-- Navbar End -->
+
+    <!-- Navbar Start -->
 
 
     <!-- Carousel Start -->
@@ -114,13 +151,19 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="min-height: 300px;">
-                    <img class="position-relative w-100" src="img/slider1.jpg"
-                        style="min-height: 300px; object-fit: cover;">
+                    <img class="position-relative w-100" src="img\university.jpg"
+                        style="min-height: 300px; object-fit:cover;">
+
+
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h1 class="display-6 text-white  mb-md-3">Get Best Course</h1>
-                            <h1 class="display-6 text-white mb-md-3">From Top University</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Apply Now</a>
+                            <h1 class="display-3 text-white mb-md-4">Get Best Course<br>
+                                From Top University In Uk </h1>
+
+
+
+                            <a href="contact.html"
+                                class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Apply Now</a>
 
 
                         </div>
@@ -131,9 +174,10 @@
                         style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                           
+
                             <h1 class="display-3 text-white mb-md-4">An exclusive student visa consultant</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <a href="contact.html"
+                                class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -142,9 +186,10 @@
                         style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                           
+
                             <h1 class="display-3 text-white mb-md-4">Get Scholarship and other benifits</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <a href="contact.html"
+                                class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -161,6 +206,7 @@
                 <div class="col-lg-5">
                     <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
                 </div>
+
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
@@ -196,72 +242,72 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_the_United_States.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="usavisa.html">
                             <h4 class="text-white font-weight-medium">USA</h4>
-                           
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_Canada.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="canadavisa.html">
                             <h4 class="text-white font-weight-medium">Canada</h4>
-                            
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img\Flag_of_the_United_Kingdom.gif" alt="">
+                        <img class="img-fluid" src="img\Flag_of_the_United_Kingdom.gif" alt="ukvisa">
                         <a class="cat-overlay text-white text-decoration-none" href="">
                             <h4 class="text-white font-weight-medium">U.K</h4>
-                           
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_Australia.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="australiavisa.html">
                             <h4 class="text-white font-weight-medium">Australia</h4>
-                           
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_New_Zealand.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="newzealandvisa.html">
                             <h4 class="text-white font-weight-medium">New Zealand</h4>
-                            
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_Europe.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="europevisa.html">
                             <h4 class="text-white font-weight-medium">Europe</h4>
-                            
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_Italy.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="italy.html">
                             <h4 class="text-white font-weight-medium">Italy</h4>
-                           
+
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="cat-item position-relative overflow-hidden rounded mb-2">
                         <img class="img-fluid" src="img\Flag_of_Germany.gif" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
+                        <a class="cat-overlay text-white text-decoration-none" href="germanyvisa.html">
                             <h4 class="text-white font-weight-medium">Germany</h4>
-                          
+
                         </a>
                     </div>
                 </div>
@@ -271,172 +317,123 @@
     <!-- Category Start -->
 
 
-   
 
 
-        <!-- Registration Start -->
-        <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 mb-5 mb-lg-0">
-                        <div class="mb-4">
-        
-                            <h1 class="text-white">Need Any Information </h1>
-                        </div>
-                        <p class="text-white">Fell Free To Enquire About
-                                              Any Questions You Got</p>
-                        <ul class="list-inline text-white m-0">
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Scholarship
-                            </li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Visa Types
 
-                            </li>
-                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Document Checklist
-                                </li>
+    <!-- Registration Start -->
+    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="mb-4">
 
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Country-Specific Information
-                                </li>
-
-
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Immigration Procedures
-                                </li>
-                        </ul>
-
+                        <h1 class="text-white">Need Any Information </h1>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="card border-0">
-                            <div class="card-header bg-light text-center p-4">
-                                <h1 class="m-0">Contact Us</h1>
-                            </div>
-                            <div class="card-body rounded-bottom bg-primary p-5">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control border-0 p-4" placeholder="Full name"
-                                            required="required" />
-                                    </div>
-                                    
+                    <p class="text-white">Fell Free To Enquire About
+                        Any Questions You Got</p>
+                    <ul class="list-inline text-white m-0">
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Scholarship
+                        </li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Visa Types
 
-                                    <div class="form-group">
-                                        <input type="email" class="form-control border-0 p-4" placeholder="Contact number"
-                                            required="required" />
-                                    </div>
+                        </li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Document Checklist
+                        </li>
 
-                                    <div class="form-group">
-                                        <input type="email" class="form-control border-0 p-4" placeholder="Email"
-                                            required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control border-0 p-4" placeholder="Message"
-                                            required="required" />
-                                    </div>
-                                    
-                                    
-                                    <div>
-                                        <button class="btn btn-dark btn-block border-0 py-3" type="submit">Sign Up
-                                            Now</button>
-                                    </div>
-                                </form>
-                            </div>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Country-Specific Information
+                        </li>
+
+
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Immigration Procedures
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="card border-0">
+                        <div class="card-header bg-light text-center p-4">
+                            <h1 class="m-0">Contact Us</h1>
+                        </div>
+                        <div class="card-body rounded-bottom bg-primary p-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control border-0 p-4" placeholder="Full name"
+                                        required="required" />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Contact number"
+                                        required="required" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control border-0 p-4" placeholder="Email"
+                                        required="required" />
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control border-0 py-3 px-4" rows="5" id="message"
+                                        placeholder="Message" required="required"
+                                        data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+
+                                <div>
+                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Sign Up
+                                        Now</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Registration End -->
+    </div>
+    <!-- Registration End -->
 
 
-        <!-- Team Start -->
-        <div class="container-fluid py-5">
-            <div class="container pt-5 pb-3">
-                <div class="text-center mb-5">
-                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Teachers</h5>
-                    <h1>Meet Our Teachers</h1>
+
+
+
+
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5">
+
+                <h1>Latest Visas</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img\student3.png" alt="">
+
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2">
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-secondary p-4">
-                                <h5>Jhon Doe</h5>
-                                <p class="m-0">Web Designer</p>
-                            </div>
-                        </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img\student2.png" alt="">
+
                     </div>
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2">
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-secondary p-4">
-                                <h5>Jhon Doe</h5>
-                                <p class="m-0">Web Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2">
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-secondary p-4">
-                                <h5>Jhon Doe</h5>
-                                <p class="m-0">Web Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center team mb-4">
-                        <div class="team-item rounded overflow-hidden mb-2">
-                            <div class="team-img position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
-                                <div class="team-social">
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-secondary p-4">
-                                <h5>Jhon Doe</h5>
-                                <p class="m-0">Web Designer</p>
-                            </div>
-                        </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img\student1.png" alt="">
+
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+    </div>
+    <!-- Blog End -->
 
 
         <!-- Testimonial Start -->
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-5">  
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Testimonial</h5>
@@ -447,30 +444,24 @@
                         <div class="owl-carousel testimonial-carousel">
                             <div class="text-center">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
-                                    eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor
-                                    stet amet eirmod eos labore diam</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
-                                <h5 class="m-0">Client Name</h5>
-                                <span>Profession</span>
+                                <h4 class="font-weight-normal mb-4">Destoholic Visa & Immigration played a crucial role in shaping my study abroad experience. Their personalized approach and attention to detail ensured that all the necessary documentation and procedures were taken care of efficiently. Their prompt responses to my queries and valuable advice gave me the confidence to overcome any challenges that came my way. I highly recommend their services to any student seeking professional guidance for their visa application.</h4>
+                                <img class="img-fluid mx-auto mb-3" src="img/studentpic2.jpg" alt="">
+                                <h5 class="m-0">Dipam</h5>
+                                <span> NewCastle University</span>
                             </div>
                             <div class="text-center">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
-                                    eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor
-                                    stet amet eirmod eos labore diam</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
-                                <h5 class="m-0">Client Name</h5>
-                                <span>Profession</span>
+                                <h4 class="font-weight-normal mb-4">Destoholic visa consultant was a game-changer for me. Their in-depth knowledge of the visa process, combined with their unwavering support, helped me navigate through the complexities with ease. They went above and beyond to address my concerns and provided me with step-by-step guidance at every stage. Thanks to their expertise, I am now living my dream of studying in a U.K. I am immensely grateful for their dedicated assistance.</h4>
+                                <img class="img-fluid mx-auto mb-3" src="img/studentpic1.jpg" alt="">
+                                <h5 class="m-0">Maan</h5>
+                                <span>University ofLeicester</span>
                             </div>
                             <div class="text-center">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est
-                                    eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor
-                                    stet amet eirmod eos labore diam</h4>
-                                <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
-                                <h5 class="m-0">Client Name</h5>
-                                <span>Profession</span>
+                                <h4 class="font-weight-normal mb-4">I am extremely grateful to Destoholic visa consultant for their exceptional guidance and support throughout the visa application process. Their expertise and thorough understanding of the requirements made the entire journey smooth and stress-free. Thanks to their assistance, I successfully obtained my student visa and can now pursue my dream of studying abroad.</h4>
+                                <img class="img-fluid mx-auto mb-3" src="img/studentpic3.jpg" alt="">
+                                <h5 class="m-0">Divyang</h5>
+                                <span>Teesside University</span>
                             </div>
                         </div>
                     </div>
@@ -479,102 +470,83 @@
         </div>
         <!-- Testimonial End -->
 
-
-        <!-- Blog Start -->
-        <div class="container-fluid py-5">
-            <div class="container pt-5 pb-3">
-                <div class="text-center mb-5">
-                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Our Blog</h5>
-                    <h1>Latest From Our Blog</h1>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-1 px-sm-1 px-lg-5" style="margin-top: 10px;">
+        <div class="footerrow pt-1">
+            <div class="col-lg-7 col-md-25">
+                <div class="footerrow">
+                    <div class="col-md-6 mb-1">
+    
+                       
+                        <p><i class="fa fa-phone-alt mr-2"></i>+91 7777 969646 <br>
+                                                               +39 34784515090</p>
+                        <p><i class="fa fa-envelope mr-2"></i>info@destoholic.com</p>
+    
+                        <div class="col-md-50 mb-1">
+                            <a class="btn btn-outline-light btn-square mr-2" href="https://www.facebook.com/people/Destoholic-Visa-Immigration/100086170082505/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-square" href="https://www.instagram.com/destoholic/?hl=en"><i class="fab fa-instagram"></i></a>
+                          </div>
+                          <div class="elementor-widget-container mb-5">
+                          <u>Copyright © 2023 Destoholic Visa & Immigration </u>		
+                        </div>
+                    </div>
+                    
+                   
                 </div>
-                <div class="row pb-3">
-                    <div class="col-lg-4 mb-4">
-                        <div class="blog-item position-relative overflow-hidden rounded mb-2">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay text-decoration-none" href="">
-                                <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut
-                                    clita</h5>
-                                <p class="text-primary m-0">Jan 01, 2050</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="blog-item position-relative overflow-hidden rounded mb-2">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay text-decoration-none" href="">
-                                <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut
-                                    clita</h5>
-                                <p class="text-primary m-0">Jan 01, 2050</p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <div class="blog-item position-relative overflow-hidden rounded mb-2">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay text-decoration-none" href="">
-                                <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut
-                                    clita</h5>
-                                <p class="text-primary m-0">Jan 01, 2050</p>
-                            </a>
+    
+    
+    
+            </div>
+    
+            <div class="footerrow pt-100">
+                
+                <div class="col-md-50 mb-1">
+    
+                
+    
+                    <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4e3b5f6" data-id="4e3b5f6" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-3c21f70 elementor-widget elementor-widget-heading" data-id="3c21f70" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p><i class="fa fa-map-marker-alt mr-2"></i>322, Third Floor Satya 2 Complex, Opp Ranna Park
+                                        Busstop, Gatlodia, Ahmedabad, India</p>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-18a0398 elementor-widget elementor-widget-text-editor" data-id="18a0398" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117466.49651609077!2d72.54497!3d23.066766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83d0c069fc91%3A0x16b678a4768ff296!2sRanna%20Park!5e0!3m2!1sen!2sus!4v1687276759750!5m2!1sen!2sus" width="500"
+                                        height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                                                                            </div>
+                            </div>
+    
+                           
                         </div>
                     </div>
                 </div>
             </div>
+    
+            
         </div>
-        <!-- Blog End -->
+    </div>
 
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white py-1 px-sm-1 px-lg-5" style="margin-top: 10px;">
-            <div class="row pt-1">
-                <div class="col-lg-7 col-md-12">
-                    <div class="row">
-                        <div class="col-md-6 mb-1">
-
-                            <p><i class="fa fa-map-marker-alt mr-2"></i>322, Third Floor Satya 2 Complex, Opp Ranna Park
-                                Busstop, Gatlodia, Ahmedabad, India</p>
-                            <p><i class="fa fa-phone-alt mr-2"></i>+91 7777 969646 <br>
-                                +39 34784515090</p>
-                            <p><i class="fa fa-envelope mr-2"></i>info@destoholic.com</p>
-
-                        </div>
-                    </div>
+        <!-- Footer End -->
 
 
 
-                </div>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-                <div class="row pt-100">
-                    <div class="col-md-50 mb-1">
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-            <!-- Footer End -->
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-
-
-            <!-- Back to Top -->
-            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i
-                    class="fa fa-angle-double-up"></i></a>
-
-            <!-- JavaScript Libraries -->
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-            <script src="lib/easing/easing.min.js"></script>
-            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-            <!-- Contact Javascript File -->
-            <script src="mail/jqBootstrapValidation.min.js"></script>
-            <script src="mail/contact.js"></script>
-
-            <!-- Template Javascript -->
-            <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 
 </body>
 

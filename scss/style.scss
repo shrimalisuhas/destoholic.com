@@ -155,11 +155,20 @@ h6,
     background-size: cover;
 }
 
-.about-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-header.jpg), no-repeat center center;
+.contact-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact-header.jpg), no-repeat center center;
     background-size: cover;
 }
 
+.destoholic-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/destoholic-header.png), no-repeat center center;
+    background-size: cover;
+}
+
+.countries-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/countries-header.jpg), no-repeat center center;
+    background-size: cover;
+}
 .cat-item img {
     transition: .5s;
 }
@@ -186,6 +195,13 @@ h6,
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/registration.jpg), no-repeat center center;
     background-size: cover;
 }
+
+.bg-visaservice {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/img\visa.webp), no-repeat center center;
+    background-size: cover;
+}
+
+
 
 .team-img .team-social {
     position: absolute;
@@ -270,3 +286,5 @@ h6,
     padding: 0;
     list-style-type: none;
 }
+
+

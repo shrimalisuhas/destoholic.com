@@ -44,3 +44,18 @@
     
 })(jQuery);
 
+document.addEventListener('DOMContentLoaded', function() {
+    var accordionHeaders = document.getElementsByClassName('accordion-header');
+  
+    for (var i = 0; i < accordionHeaders.length; i++) {
+      accordionHeaders[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+        var accordionContent = this.nextElementSibling;
+        if (accordionContent.style.display === 'block') {
+          accordionContent.style.display = 'none';
+        } else {
+          accordionContent.style.display = 'block';
+        }
+      });
+    }
+  });
